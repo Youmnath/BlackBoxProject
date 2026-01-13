@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1768321491 source:c:\users\youmnath\onedrive\dokumente\codes c\série 4\projet informatique\main.c
+	<stdio.h>
+	<stdlib.h>
+	"memoire.h"
+	"simulation.h"
+	"fichiers.h"
+
+1768321426 source:c:\users\youmnath\onedrive\dokumente\codes c\série 4\projet informatique\memoire.c
+	<stdio.h>
+	<stdlib.h>
+	"memoire.h"
+
+1768321318 c:\users\youmnath\onedrive\dokumente\codes c\série 4\projet informatique\memoire.h
+
+1768320968 source:c:\users\youmnath\onedrive\dokumente\codes c\série 4\projet informatique\fichiers.c
+	<stdio.h>
+	"fichiers.h"
+
+1768321447 c:\users\youmnath\onedrive\dokumente\codes c\série 4\projet informatique\fichiers.h
+	"memoire.h"
+
+1768321212 source:c:\users\youmnath\onedrive\dokumente\codes c\série 4\projet informatique\simulation.c
+	<stdio.h>
+	"simulation.h"
+	"memoire.h"
+	"fichiers.h"
+
+1768252266 c:\users\youmnath\onedrive\dokumente\codes c\série 4\projet informatique\simulation.h
+
