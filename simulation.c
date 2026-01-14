@@ -18,7 +18,7 @@ void simulation() {
     char action;
 
     while (1) {
-        printf("[A]ccélérer / [F]reiner : ");
+        printf("Accelerer (A) / Freiner(F) : ");
         scanf(" %c", &action);
 
         if (action == 'A' || action == 'a')
@@ -26,7 +26,7 @@ void simulation() {
         else if (action == 'F' || action == 'f')
             v -= 7.0;
         else {
-            printf("Entrée incorrecte\n");
+            printf("Entree incorrecte\n");
             continue;
         }
 
@@ -39,7 +39,12 @@ void simulation() {
         printf("t=%ld | v=%.1f km/h | T=%.2f°C\n", t, v, T);
 
         if (v == 0 || T > T_MAX) {
-            printf("CRASH détecté → dump mémoire\n");
+                if(v==0){
+                    printf("Oups votre vehicule vient de s'arreter...\n");
+                }
+                if(T>T_MAX){
+            printf("CRASH detecte → Sauvegarde des donnees\n");
+                }
             dump_memory(&b);
             analysis();
             break;

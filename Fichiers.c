@@ -4,8 +4,9 @@
 
 void dump_memory(BlackBox *b) {
     FILE *f = fopen("crash.bin", "wb");
-    if (!f) return;
-
+    if(f==NULL) {
+    return;
+    }
     Frame *cur = b->debut;
     while (cur) {
         fwrite(cur, sizeof(Frame), 1, f);
@@ -16,7 +17,7 @@ void dump_memory(BlackBox *b) {
 
 void analysis() {
     FILE *f = fopen("crash.bin", "rb");
-    if (!f) {
+    if (f== NULL){
         printf("Erreur ouverture crash.bin\n");
         return;
     }
@@ -37,6 +38,7 @@ void analysis() {
 
     if (count > 0) {
         printf("Vitesse moyenne : %.2f km/h\n", somme_v / count);
-        printf("Température max : %.2f °C\n", temp_max);
+        printf("Temperature max : %.2f °C\n", temp_max);
+        printf("Merci pour votre tour a bord de notre petite manège.\nG---O---O---D---B---Y---E");
     }
 }

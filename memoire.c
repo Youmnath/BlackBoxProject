@@ -10,7 +10,7 @@ void BlackBox_initialization (BlackBox *b) {
 
 void recording_cycle(BlackBox *b, float v, float temp, long time) {
     Frame *nouvelle = calloc(1, sizeof(Frame));
-    if (!nouvelle) return;
+    if (nouvelle==NULL) return;
 
     nouvelle->timestamp = time;
     nouvelle->vitesse = v;
