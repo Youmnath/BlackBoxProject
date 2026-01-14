@@ -8,7 +8,7 @@
 
 int main() {
     int choice;
-    printf("Bienvenue chez RYLS&CO\n.Nous vous proposons une petite simulation.\n");
+    printf("Bienvenue chez DRYLS&CO\n.Nous vous proposons une petite simulation.\n");
     printf("1 - Lancer la simulation\n");
     printf("2 - Historique Precedent\n");
     printf("Votre choix : ");

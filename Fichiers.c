@@ -39,6 +39,6 @@ void analysis() {
     if (count > 0) {
         printf("Vitesse moyenne : %.2f km/h\n", somme_v / count);
         printf("Temperature max : %.2f °C\n", temp_max);
-        printf("Merci pour votre tour a bord de notre petite manège.\nG---O---O---D---B---Y---E");
+        printf("Merci pour votre passage.\nG---O---O---D---B---Y---E");
     }
 }

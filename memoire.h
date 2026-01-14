@@ -18,4 +18,6 @@ typedef struct {
 
 void BlackBox_initialization (BlackBox *b) ;
 void recording_cycle(BlackBox *b, float v, float temp, long time) ;
+
+
 #endif
