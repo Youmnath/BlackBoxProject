@@ -85,9 +85,13 @@ Ces scénarios décrivent des vérifications possibles ; ils ne constituent pas 
 ## 👩‍💻 Auteurs
 
 **Youmnath MOUTAIROU** — Étudiante ingénieure à l'ESIGELEC, parcours Intelligence Artificielle & Big Data.
+
 **Rafeek MARCOS** — Étudiant ingénieur à l'ESIGELEC.
+
 **Leah ALLEY** — Étudiante ingénieure à l'EIGSI.
+
 **David DJOSSOU** — Étudiant ingénieur à l'ESIGELEC.
+
 **Shanya de SOUZA** — Étudiante ingénieure à BUILDERS.
 
 
