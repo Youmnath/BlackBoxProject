@@ -82,9 +82,17 @@ Ces scénarios décrivent des vérifications possibles ; ils ne constituent pas 
 - Ajouter des tests automatisés et documenter les résultats.
 - Améliorer la performance d'ajout des trames en conservant un pointeur vers la fin de la liste.
 
-## 👩‍💻 Auteur
+## 👩‍💻 Auteurs
 
 **Youmnath MOUTAIROU** — Étudiante ingénieure à l'ESIGELEC, parcours Intelligence Artificielle & Big Data.
+**Rafeek MARCOS** — Étudiant ingénieur à l'ESIGELEC.
+**Leah ALLEY** — Étudiante ingénieure à l'EIGSI.
+**David DJOSSOU** — Étudiant ingénieur à l'ESIGELEC.
+**Shanya de SOUZA** — Étudiante ingénieure à BUILDERS.
+
+
+
+
 
 📧 [E-mail professionnel](mailto:youmnath.moutairou@groupe-esigelec.org) · 💼 [LinkedIn](https://www.linkedin.com/in/youmnath-moutairou/) · 🐙 [Portfolio GitHub](https://github.com/Youmnath)
 
